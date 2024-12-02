@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tic-Tac-Toe Game</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="game-container">
+      <h1>Tic-Tac-Toe</h1>
+      <div id="gameModeIndicator" class="game-mode-indicator">
+        <p>Game Mode: <span id="modeDisplay">Manual</span></p>
+      </div>
+      
+      
+      <div id="gameBoard" class="game-board">
+        <!-- 3x3 grid of cells will be created dynamically -->
+      </div>
+
+      <div id="status" class="status">
+        <p>Player X's turn</p>
+      </div>
+      <button id="resetButton" class="reset-button">Reset Game</button>
+      <br>
+      <div class="opbtn">
+        <button id="manualButton" class="mode-button">Manual Mode</button>
+        <button id="autoButton" class="mode-button">Auto Mode</button>
+        
+
+      </div>
+      <button id="infoButton" class="info-button">Info</button>
+      
+    </div>
+    <div id="infoModal" class="info-modal">
+      <div class="modal-content">
+        <span class="close-button" id="closeButton">&times;</span>
+        <h2>Developer Info</h2>
+        <p>Developed by: Riyadh Touhid</p>
+        <p>Studying: CSE, at United International University (UIU)</p>
+
+        <p>Email: touhidulislamriyadh@gmail.com</p>
+        <p>
+          GitHub:
+          <a href="https://github.com/Riyadh435" target="https://github.com/Riyadh435"
+            >https://github.com/Riyadh435</a
+          >
+        </p>
+        <p>Thank You</p>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
